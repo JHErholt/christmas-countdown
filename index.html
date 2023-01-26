@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='da'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Xmas!</title>
+
+    <!-- Stylesheets -->
+    <link rel='stylesheet' href='inc/css/style.css'>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Start of code -->
+
+    <!-- ///// 
+<<< Snow layer >>>
+Used for making snow in the background
+///// -->
+    <div class="snow layer1 a"></div>
+    <div class="snow layer1"></div>
+    <div class="snow layer2 a"></div>
+    <div class="snow layer2"></div>
+    <div class="snow layer3 a"></div>
+    <div class="snow layer3"></div>
+
+    <header>
+
+        <div class="title">
+            <h1 class="christmas">Merry Christmas!</h1>
+        </div>
+    </header>
+    <div class="br__tel"></div>  
+    <main>
+        <div class="main__m-wrapper">
+            <div class="m-wrapper__content">
+                May the magic of the Christmas season fill your home with joy and peace. <br> Sending lots of love to your
+                family, and looking forward to the day I can see you again. <br> Take care of yourselves and stay safe.
+                <!-- https://www.homemade-gifts-made-easy.com/merry-christmas-wishes.html -->
+                <br><br>
+                Lots of love from me
+            </div>
+            <div class="br__tel"></div>
+            <div class="m-wrapper__sidebar">
+                <div id="countdown">
+                    <h1 class="time-title">Countdown until Christmas Day.</h1>
+                    <div class="time">
+                        <div class="time-child" id="days"></div>
+                        <div class="time-child" id="hours"></div>
+                        <div class="time-child" id="minutes"></div>
+                        <div class="time-child" id="seconds"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="br__pc"></div>
+        <svg width="250" height="250" viewBox="0 0 200 200">
+            <g transform="translate(100 100)">
+              <path transform="translate(-50 -50)" fill="tomato" d="M92.71,7.27L92.71,7.27c-9.71-9.69-25.46-9.69-35.18,0L50,14.79l-7.54-7.52C32.75-2.42,17-2.42,7.29,7.27v0 c-9.71,9.69-9.71,25.41,0,35.1L50,85l42.71-42.63C102.43,32.68,102.43,16.96,92.71,7.27z"></path>
+              <animateTransform 
+                  attributeName="transform" 
+                  type="scale" 
+                  values="1; 1.2; 1.15; 1.2; 1.2; 1;" 
+                  dur="1s" 
+                  repeatCount="indefinite"
+                  additive="sum">      
+              </animateTransform>
+          </g>
+        </svg>  
+    </main>
+    <footer>
+        <div class="footer__made-by">
+            Made By Jacob Erholt
+        </div>
+    </footer>
+
+
+</body>
+<script src="/inc/js/script.js"></script>
+
+</html>
